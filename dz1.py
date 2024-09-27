@@ -1,1 +1,6 @@
-import math
+a = int(input('Введите первое число'))
+b = int(input('Введите второе число'))
+if b != 0:
+    print(a/b)
+if b == 0:
+    print('На ноль делить нельзя!')
