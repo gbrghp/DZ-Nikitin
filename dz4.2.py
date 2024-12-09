@@ -27,4 +27,4 @@ str = input().split()
 for i in str:
     i = i.lower()
     if i[0] == "a" and i[-1] == "я":
-        print(i, end = ' ')
+        print(i, end = ' ')                                 
